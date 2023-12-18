@@ -1,0 +1,81 @@
+/* General styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #DEE1E3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+/* Main title styling */
+.main-title {
+    width: 1440px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 15px; /* Further reduced margin-top */
+    margin-bottom: 20px; 
+}
+
+/* Content section styling */
+#content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    margin-top: 56px;
+}
+
+/* Paragraph without drop shadow */
+.paragraph {
+    width: 951px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px; /* Further reduced margin-top */
+    margin-bottom: 16px; /* Reduced margin-bottom */
+    line-height: 1.4; /* Adjusted line-height */
+}
+
+/* Home button background */
+.home-btn-bg {
+    width: 409px;
+    height: 109px;
+    border-radius: 47px;
+    background: #0B4F80;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Further reduced margin-top */
+    cursor: pointer;
+}
+
+/* Footer - Home Button */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 87px 0;
+}
+
+.home-btn-text {
+    display: inline-block;
+    padding: 24px 105px;
+    background-color: #0B4F80;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    border-radius: 34px;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    user-select: none;  /* Makes sure the text doesn't get highlighted upon clicking */
+}

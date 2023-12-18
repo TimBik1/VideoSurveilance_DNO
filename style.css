@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order to put nav on top */
+    align-items: center;
+}
+
+/* Main title styling */
+h1 {
+    width: 866px;
+    height: 341px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 20px; /* Adding some spacing between the nav and h1 */
+}
+
+/* Navigation bar styling */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 108px; /* Adjusted the height */
+    background: #0B4F80;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px; /* Increased font size */
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px; /* Adding some spacing between the nav and h1 */
+}
+
+.nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px 0; /* Added padding to make the links bigger */
+    background-color: #2980b9; /* Blue background for the buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav a:hover {
+    background-color: #3498db; /* Slightly brighter blue on hover */
+}
+
+/* SVG Divider */
+.nav-divider {
+    width: 134.004px;
+    height: 0px;
+    transform: rotate(-89.572deg);
+    stroke-width: 6px;
+    stroke: #FFF;
+}
+
+nav button {
+    position: relative;
+    top: -208px;
+    flex: 1;
+    text-align: center;
+    padding: 24px 40px; /* Increased horizontal padding for wider buttons */
+    background-color: #2980b9;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    color: #ffffff; /* Text color set to white */
+    font-weight: 800; /* Bolder text */
+    margin: 0 32px; /* Space between buttons */
+    transition: background-color 0.3s;
+    cursor: pointer; /* To show it's clickable */
+}
+
+
+nav button:hover {
+    background-color: #3498db;
+}
+
+body {
+    margin-top: 20px; /* Push everything down a bit */
+}
+
+
+
